@@ -1,0 +1,47 @@
+.full-page-sec {
+    display: flex !important;
+    height: 100vh;
+    width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw;
+    min-width: 100vw;
+}
+
+.ctr-content {
+    align-self: center;
+}
+
+.constrained {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#number-input {
+    text-align: center;
+    font-size: 60px;
+}
+
+@media(max-width: 768px) {
+    #number-input {
+        font-size: auto;
+    }
+}
+
+.panel-title {
+    text-align: center;
+    font-size: 36px !important;
+}
+::-webkit-input-placeholder {
+    font-size: 60px !important;
+}
+:-moz-placeholder {
+    font-size: 60px !important;
+}
+::-moz-placeholder {
+    font-size: 60px !important;
+}
+:-ms-input-placeholder {
+    font-size: 60px !important;
+}
